@@ -1,6 +1,6 @@
 ---
 title: 'HetznerCloudAdvanced'
-description: 'Avanced way to resell Hetzner'
+description: 'Advanced way to resell Hetzner'
 ---
 
 <img
@@ -32,24 +32,26 @@ To install the HetznerCloudAdvanced extension, upload all files to the following
 Directory structure should look like this:
 
 ```md
-/extensions/Servers/HetznerCloudAdvanced
+    /extensions/Servers/HetznerCloudAdvanced
 ```
-
-
-You can also install it via the Extension Installer tab in the admin panel simply by dropping an archive (.zip) file of the extension.
-
 <br />
 
 <Tip>
-
-Mintlify supports [HTML tags in Markdown](https://www.markdownguide.org/basic-syntax/#html). This is helpful if you prefer HTML tags to Markdown syntax, and lets you create documentation with infinite flexibility.
+You can also install it via the Extension Installer tab in the admin panel simply by dropping an archive (.zip) file of the extension.
 
 </Tip>
 
-### iFrames
+## Troubleshooting
 
-Loads another HTML page within the document. Most commonly used for embedding videos.
+If you encounter any issues during installation or usage of the HetznerCloudAdvanced extension, please follow these steps:
 
-```html
-<iframe src="https://www.youtube.com/embed/4KzFe50RQkQ"> </iframe>
+Run these commands in your terminal:
+```md
+    npm run build
 ```
+Directory structure should look like this:
+
+```md
+    php artisan optimize:clear
+```
+<br />
