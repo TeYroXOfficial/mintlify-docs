@@ -16,16 +16,14 @@
           {
             "group": "Getting started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Extensions",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "extensions/hetznercloudadvanced",
+              "extensions/hetznerrobot"
             ]
           }
         ]
