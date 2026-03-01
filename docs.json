@@ -26,6 +26,12 @@
               "extensions/hetznerrobot",
               "extensions/virtfusionadvanced"
             ]
+          },
+          {
+            "group": "Extensions Images",
+            "pages": [
+              "virt-fusion-advanced"
+            ]
           }
         ]
       }
