@@ -23,7 +23,8 @@
             "group": "Extensions",
             "pages": [
               "extensions/hetznercloudadvanced",
-              "extensions/hetznerrobot"
+              "extensions/hetznerrobot",
+              "extensions/virtfusionadvanced"
             ]
           }
         ]

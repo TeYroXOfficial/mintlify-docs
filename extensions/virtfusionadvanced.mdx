@@ -1,0 +1,54 @@
+---
+title: 'VirtfusionAdvanced'
+description: 'VirtFusionAdvanced brings beautiful UI, SSO, builded-in Console/Graphs and more.'
+---
+
+
+<img
+  style={{ borderRadius: '0.5rem' }}
+  src="/images/VirtFusionAdvanced/VirtFusionAdvanced - Banner.jpg"
+/>
+
+## Preparing VirtFusion API
+
+Login to your VirtFusion instance
+
+#$# Create API Token
+Open System TAB and click API
+![title](/images/VirtFusionAdvanced/API.jpg)
+Click on Create Token and fill with your data if you wish
+![title](/images/VirtFusionAdvanced/Paymenter.png)
+
+
+## Installing Extension
+
+To install the VirtFusionAdvanced extension, upload all files to the following directory on your server:
+
+```md
+    /extensions/Servers/
+```
+Directory structure should look like this:
+
+```md
+    /extensions/Servers/VirtFusionAdvanced
+```
+<br />
+
+<Tip>
+You can also install it via the Extension Installer tab in the admin panel simply by dropping an archive (.zip) file of the extension.
+
+</Tip>
+
+## Troubleshooting
+
+If you encounter any issues during installation or usage of the VirtFusionAdvanced extension, please follow these steps:
+
+Run these commands in your terminal:
+```md
+    npm run build
+```
+
+```md
+    php artisan optimize:clear
+```
+<br />
